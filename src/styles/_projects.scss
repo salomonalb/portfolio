@@ -7,15 +7,12 @@
   &__title {
     font-family: $font-fam;
     font-size: 3rem;
-    margin-left: 11rem;
     margin-bottom: 3rem;
   }
   &__container {
     display: flex;
+    flex-direction: column;
     overflow: hidden;
-    max-width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-between;
   }
 }
 
@@ -24,7 +21,8 @@
   margin-bottom: 1.5rem;
   padding: 1.8rem;
   border-radius: 1rem;
-  width: min(100%, 42.5rem);
+  width: 100%;
+  max-width: 50rem;
   margin-inline: auto;
 
   &__title {

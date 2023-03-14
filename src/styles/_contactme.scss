@@ -8,7 +8,6 @@
   &__title {
     font-family: $font-fam;
     font-size: 3rem;
-    margin-left: 11rem;
     margin-bottom: 3rem;
   }
   &__container {
@@ -16,7 +15,8 @@
     overflow: hidden;
     max-width: 100%;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 3rem;
+    justify-content: flex-start;
   }
 }
 
