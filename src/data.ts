@@ -1,4 +1,4 @@
-import profilePicture from "./assets/profile-picture.jpg"
+import profilePicture from "./assets/profile-picture.png"
 
 type skill = {
     name: string,

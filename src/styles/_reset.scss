@@ -1,0 +1,21 @@
+@use "./variables" as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+html {
+    font-size: 62.5%;
+    @media (min-width: 1440px) {
+        font-size: 0.7vw;
+    }
+}
+
+body {
+    font-family: $font-fam;
+    background-color: $black;
+    color: $font-color;
+    padding: 2.5rem;
+}

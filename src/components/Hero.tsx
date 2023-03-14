@@ -1,4 +1,4 @@
-import { userData, user } from "./data"
+import { user } from "../data"
 
 type HeroProps = {
     userData : user
@@ -11,7 +11,7 @@ function Hero({ userData }: HeroProps) {
             <img className="hero__image" src={userData.profilePicture} alt={userData.name} />
         </div>
         <div className="hero__text-container">
-            <p className="hero__name">{userData.name}</p>
+            <p className="hero__name">{userData.name} {userData.lastName}</p>
             <p className="hero__description">{userData.description}</p>
         </div>
     </section>
