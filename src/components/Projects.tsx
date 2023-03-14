@@ -13,10 +13,18 @@ function Projects({ projects }: ProjectsProps) {
           <p className="project__description">{project.description}</p>
         </div>
         <div className="project__links-container">
-          <a className="project__button" target="_blank" href={project.websiteLink}>
+          <a
+            className="project__button"
+            target="_blank"
+            href={project.websiteLink}
+          >
             Link
           </a>
-          <a className="project__button" target="_blank" href={project.githubLink}>
+          <a
+            className="project__button"
+            target="_blank"
+            href={project.githubLink}
+          >
             Github
           </a>
         </div>

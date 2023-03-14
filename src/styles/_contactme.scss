@@ -3,15 +3,15 @@
 .contactme {
   overflow: hidden;
   margin-block: 5rem;
-    max-width: 100rem;
-    margin-inline: auto;
+  max-width: 100rem;
+  margin-inline: auto;
   &__title {
-      font-family: $font-fam;
-      font-size: 3rem;
-      margin-left: 11rem;
-      margin-bottom: 3rem;
+    font-family: $font-fam;
+    font-size: 3rem;
+    margin-left: 11rem;
+    margin-bottom: 3rem;
   }
-  &__container{
+  &__container {
     display: flex;
     overflow: hidden;
     max-width: 100%;

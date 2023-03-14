@@ -7,7 +7,6 @@
   gap: 3rem;
   margin: auto;
   max-width: 100rem;
-  //outline: 1px solid red;
   @media (min-width: 769px) {
     flex-direction: row;
   }
@@ -15,7 +14,6 @@
   &__image-container {
     flex-basis: 0;
     flex-grow: 1;
-    //outline: 1px solid red;
     display: grid;
     place-items: center;
   }
@@ -31,20 +29,17 @@
     gap: 2rem;
     max-width: 60rem;
     margin: auto;
-    //outline: 1px solid red;
   }
   &__name {
     font-size: 3rem;
     font-weight: 600;
     text-align: center;
-    //outline: 1px solid green;
     @media (min-width: 769px) {
       text-align: left;
     }
   }
   &__description {
     font-size: 1.5rem;
-    //outline: 1px solid green;
     line-height: 1.4;
     color: $font-secondary;
   }

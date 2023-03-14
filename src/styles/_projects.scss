@@ -1,51 +1,51 @@
 @use "./variables" as *;
 
 .projects {
-    margin-block: 5rem;
-    max-width: 100rem;
-    margin-inline: auto;
-    &__title {
-        font-family: $font-fam;
-        font-size: 3rem;
-        margin-left: 11rem;
-        margin-bottom: 3rem;
-    }
-    &__container {
-        display: flex;
-        overflow: hidden;
-        max-width: 100%;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
+  margin-block: 5rem;
+  max-width: 100rem;
+  margin-inline: auto;
+  &__title {
+    font-family: $font-fam;
+    font-size: 3rem;
+    margin-left: 11rem;
+    margin-bottom: 3rem;
+  }
+  &__container {
+    display: flex;
+    overflow: hidden;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
 
 .project {
-    background-color: $project-body;
-    margin-bottom: 1.5rem;
-    padding: 1.8rem;
-    border-radius: 1rem;
-    width: min(100%, 42.5rem);
-    margin-inline: auto;
+  background-color: $project-body;
+  margin-bottom: 1.5rem;
+  padding: 1.8rem;
+  border-radius: 1rem;
+  width: min(100%, 42.5rem);
+  margin-inline: auto;
 
-    &__title {
-        font-size: 2rem;
-        margin-bottom: 1rem;
-    }
-    &__description {
-        font-size: 1.6rem;
-        line-height: 1.5;
-    }
-    &__links-container {
-        display: flex;
-        gap: 1rem;
-        margin-top: 2rem;
-        justify-content: flex-end;
-    }
-    &__button {
-        background-color: $project-button;
-        padding: 1rem;
-        color: $font-color;
-        font-size: 1.6rem;
-        text-decoration: none;
-    }
+  &__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  &__description {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+  &__links-container {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    justify-content: flex-end;
+  }
+  &__button {
+    background-color: $project-button;
+    padding: 1rem;
+    color: $font-color;
+    font-size: 1.6rem;
+    text-decoration: none;
+  }
 }

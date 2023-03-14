@@ -1,16 +1,16 @@
 import profilePicture from "./assets/profile-picture.png";
-import htmlIcon from "./assets/html-icon.png"
-import cssIcon from "./assets/css-icon.png"
-import javascriptIcon from "./assets/javascript-icon.png"
-import typescriptIcon from "./assets/typescript-icon.png"
-import scssIcon from "./assets/sass-icon.png"
-import reactIcon from "./assets/react-icon.svg.png"
-import gitIcon from "./assets/git-icon.png"
-import npmIcon from "./assets/npm-icon.png"
-import linkedinIcon from "./assets/linkedin-icon.png"
-import twitterIcon from "./assets/twitter-icon.svg.png"
-import githubIcon from "./assets/github-icon.png"
-import emailIcon from "./assets/email-icon.png"
+import htmlIcon from "./assets/html-icon.png";
+import cssIcon from "./assets/css-icon.png";
+import javascriptIcon from "./assets/javascript-icon.png";
+import typescriptIcon from "./assets/typescript-icon.png";
+import scssIcon from "./assets/sass-icon.png";
+import reactIcon from "./assets/react-icon.svg.png";
+import gitIcon from "./assets/git-icon.png";
+import npmIcon from "./assets/npm-icon.png";
+import linkedinIcon from "./assets/linkedin-icon.png";
+import twitterIcon from "./assets/twitter-icon.svg.png";
+import githubIcon from "./assets/github-icon.png";
+import emailIcon from "./assets/email-icon.png";
 
 export type skill = {
   name: string;
@@ -179,6 +179,6 @@ export const userData: user = {
       name: "Email",
       link: "mailto:salomonleon197@gmail.com",
       icon: emailIcon,
-    }
+    },
   ],
 };
