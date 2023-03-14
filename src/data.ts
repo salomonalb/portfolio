@@ -1,18 +1,18 @@
 import profilePicture from "./assets/profile-picture.png"
 
-type skill = {
+export type skill = {
     name: string,
     icon: string
 }
 
-type project = {
+export type project = {
     name: string,
     description: string,
     websiteLink: string,
     githubLink: string
 }
 
-type contact = {
+export type contact = {
     name: string,
     link: string,
     icon: string,

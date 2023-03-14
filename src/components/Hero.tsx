@@ -1,18 +1,21 @@
 import { user } from "../data"
 
 type HeroProps = {
-    userData : user
+    name: string,
+    lastName: string,
+    profilePicture: string,
+    description: string
 }
 
-function Hero({ userData }: HeroProps) {
+function Hero({ name, lastName, profilePicture, description }: HeroProps) {
   return (
     <section className="hero">
         <div className="hero__image-container">
-            <img className="hero__image" src={userData.profilePicture} alt={userData.name} />
+            <img className="hero__image" src={profilePicture} alt={name} />
         </div>
         <div className="hero__text-container">
-            <p className="hero__name">{userData.name} {userData.lastName}</p>
-            <p className="hero__description">{userData.description}</p>
+            <p className="hero__name">{name} {lastName}</p>
+            <p className="hero__description">{description}</p>
         </div>
     </section>
   )
