@@ -8,7 +8,7 @@ function Contact({ contactMethods }: ContactProps) {
   const contactElements = contactMethods.map((contact) => {
     return (
       <div className="contact">
-        <a className="contact__button" href={contact.link}>
+        <a className="contact__button" target="_blank" href={contact.link}>
           <img
             className="contact__icon"
             src={contact.icon}

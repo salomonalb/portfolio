@@ -162,22 +162,22 @@ export const userData: user = {
   contactMethods: [
     {
       name: "LinkedIn",
-      link: "",
+      link: "https://www.linkedin.com/in/salomon-leon-58765a23a/",
       icon: linkedinIcon,
     },
     {
       name: "Twitter",
-      link: "",
+      link: "https://twitter.com/blasdev",
       icon: twitterIcon,
     },
     {
       name: "Github",
-      link: "",
+      link: "https://github.com/salomonalb",
       icon: githubIcon,
     },
     {
       name: "Email",
-      link: "",
+      link: "mailto:salomonleon197@gmail.com",
       icon: emailIcon,
     }
   ],
