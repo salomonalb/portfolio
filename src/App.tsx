@@ -5,11 +5,14 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
 function App() {
-  
-
   return (
     <main className="App">
-      <Hero name={userData.name} lastName={userData.lastName} profilePicture={userData.profilePicture} description={userData.description} />
+      <Hero
+        name={userData.name}
+        lastName={userData.lastName}
+        profilePicture={userData.profilePicture}
+        description={userData.description}
+      />
       <Skills skills={userData.skills} />
       <Projects projects={userData.projects} />
       <Contact contactMethods={userData.contactMethods} />
