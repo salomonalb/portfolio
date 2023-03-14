@@ -1,4 +1,16 @@
 import profilePicture from "./assets/profile-picture.png";
+import htmlIcon from "./assets/html-icon.png"
+import cssIcon from "./assets/css-icon.png"
+import javascriptIcon from "./assets/javascript-icon.png"
+import typescriptIcon from "./assets/typescript-icon.png"
+import scssIcon from "./assets/sass-icon.png"
+import reactIcon from "./assets/react-icon.svg.png"
+import gitIcon from "./assets/git-icon.png"
+import npmIcon from "./assets/npm-icon.png"
+import linkedinIcon from "./assets/linkedin-icon.png"
+import twitterIcon from "./assets/twitter-icon.svg.png"
+import githubIcon from "./assets/github-icon.png"
+import emailIcon from "./assets/email-icon.png"
 
 export type skill = {
   name: string;
@@ -37,35 +49,35 @@ export const userData: user = {
   skills: [
     {
       name: "HTML",
-      icon: "",
+      icon: htmlIcon,
     },
     {
       name: "CSS",
-      icon: "",
+      icon: cssIcon,
     },
     {
       name: "JavaScript",
-      icon: "",
+      icon: javascriptIcon,
     },
     {
       name: "TypeScript",
-      icon: "",
+      icon: typescriptIcon,
     },
     {
       name: "SCSS",
-      icon: "",
+      icon: scssIcon,
     },
     {
       name: "React",
-      icon: "",
+      icon: reactIcon,
     },
     {
       name: "GIT",
-      icon: "",
+      icon: gitIcon,
     },
     {
       name: "NPM",
-      icon: "",
+      icon: npmIcon,
     },
   ],
   projects: [
@@ -83,12 +95,6 @@ export const userData: user = {
       websiteLink: "https://crowndfunding-productpage.netlify.app",
       githubLink:
         "https://github.com/salomonalb/crowdfunding-product-page-main",
-    },
-    {
-      name: "",
-      description: "",
-      websiteLink: "",
-      githubLink: "",
     },
     {
       name: "Advice Generator App",
@@ -157,17 +163,22 @@ export const userData: user = {
     {
       name: "LinkedIn",
       link: "",
-      icon: "",
+      icon: linkedinIcon,
     },
     {
       name: "Twitter",
       link: "",
-      icon: "",
+      icon: twitterIcon,
     },
     {
       name: "Github",
       link: "",
-      icon: "",
+      icon: githubIcon,
     },
+    {
+      name: "Email",
+      link: "",
+      icon: emailIcon,
+    }
   ],
 };
