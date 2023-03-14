@@ -4,11 +4,11 @@ import cssIcon from "./assets/css-icon.png";
 import javascriptIcon from "./assets/javascript-icon.png";
 import typescriptIcon from "./assets/typescript-icon.png";
 import scssIcon from "./assets/sass-icon.png";
-import reactIcon from "./assets/react-icon.svg.png";
+import reactIcon from "./assets/react-icon.png";
 import gitIcon from "./assets/git-icon.png";
 import npmIcon from "./assets/npm-icon.png";
 import linkedinIcon from "./assets/linkedin-icon.png";
-import twitterIcon from "./assets/twitter-icon.svg.png";
+import twitterIcon from "./assets/twitter-icon.png";
 import githubIcon from "./assets/github-icon.png";
 import emailIcon from "./assets/email-icon.png";
 
