@@ -1,5 +1,3 @@
-import { user } from "../data";
-
 type HeroProps = {
   name: string;
   lastName: string;
