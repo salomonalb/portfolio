@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   display: block;
+  font-family: $font-fam;
 }
 
 html {
@@ -14,8 +15,9 @@ html {
 }
 
 body {
-  font-family: $font-fam;
-  background-color: $black;
+  background-color: #1a1919;
+opacity: 0.8;
+background: linear-gradient(135deg, #2a2a2a55 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #2a2a2a 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #2a2a2a55 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #2a2a2a 25%, #1a1919 25%) 0px 0/ 20px 20px;
   color: $font-color;
-  padding: 2.5rem;
+  padding: 3rem;
 }
